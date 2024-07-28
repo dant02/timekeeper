@@ -12,5 +12,11 @@
     <vm:MainViewModel />
   </Design.DataContext>
 
-  <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+  <Viewbox>
+    <TextBlock Name="timeTxBx"
+               Text="{Binding Greeting}"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               FontFamily="Consolas" />
+  </Viewbox>
 </UserControl>
